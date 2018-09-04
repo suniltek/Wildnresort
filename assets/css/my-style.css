@@ -1,0 +1,100 @@
+body {font-family: 'Lato', sans-serif;font-weight:400;color:#2a2a2a}
+/*font-family: 'Raleway', sans-serif;*/
+
+/******* Global Style ********/
+.sec-title{font-family:'Raleway',sans-serif;font-weight:700;text-transform:uppercase;font-size:28px;position:relative;margin-bottom:25px;color:#242424;}
+.sec-title::after{content:"";position:absolute;right:46.5%;bottom:-20px;width:6%;height:4.8px;background:#304200;
+border-radius:5px;}
+
+/******** HEADER BAR ********/
+.header-bar{background:#181917;padding:7px 0;color:#fff;margin-bottom:20px;font-size:14px;}
+div.header-bar a{color:#fff;transition:all .3s;}
+div.header-bar a:hover, div.header-bar a:focus{color:#c4c500;text-decoration:none;outline:none;}
+.social-follow-us{text-align:right;}
+
+/******** NAV MENU **********/
+.resort-nav{margin-bottom:105px;}
+.resort-nav .navbar-nav .nav-item .nav-link{color:#fff;font-family:'Raleway',sans-serif;font-weight:400;
+text-transform:uppercase;transition:all .3s;}
+.resort-nav .navbar-nav .nav-item .nav-link:hover{color:#c4c500;}
+.resort-logo{margin-top:-12px;}
+
+/*-*-*-* Fixed navbar *-*-*-*-*/
+.fixed-me{background-color:#677968 !important;padding-top:5px;margin-bottom: 5px;position:fixed;top:0;z-index:888;
+width: 100%;border-bottom:2px solid #c6c300 !important;transition: all 1s;font-size: 14px;}
+.navbar-me{transition: all 1s ;padding-bottom: 0 !important;}
+.fixed-me img{width:180px;margin-top:-5px;}
+
+/****** Banner Section *******/
+.banner-bg{background:url(../images/banner-bg.png) no-repeat center center;background-size:cover;
+background-position:100% 0%;padding:0px 0 110px;position:relative;}
+.banner-text{font-family:'Raleway',sans-serif;font-size:76px;color:#fff;font-weight:300;line-height:55px;padding-top:105px;}
+.banner-text span{font-family: 'Lato', sans-serif;font-weight:400;color:#fff;font-size:20px;}
+
+/**** About Us Section ******/
+.about-us-sec{width:100%;background:#fff;position:relative;padding:60px 0 60px;}
+.about-us-sec:after{content:"";position:absolute;top:0;bottom:0;right:0;width:38%;background:url(../images/about-us-bg.png) no-repeat center center;background-size:cover;}
+
+/******* Enquire Now ********/
+.enquire-now{background:#d4af00;padding:25px 0;color:#fff;margin-bottom:25px;}
+.subs-title{font-weight:700;text-transform:uppercase;font-size:19px;line-height: 30px;color:#303030;font-family:'Raleway',sans-serif;}
+.subs-title span{font-weight:700;text-transform:uppercase;font-size:26px;margin-bottom:5px;color:#303030;}
+.btn-enquire{border-radius:30px;padding:8px 20px;background:#304200;color:#fff;font-weight:700;font-size:18px;text-transform:uppercase;border:2px solid #304200;}
+.btn-enquire:hover{text-decoration:none;background:#fff;color:#304200;}
+.btn-enquire span {cursor:pointer;display:inline-block;position:relative;transition:0.5s;}
+.btn-enquire span:after {content: '\00bb';position:absolute;opacity: 0;top: -5px;right: 20px;transition: 0.5s;font-size:22px;color:#304200;}
+.btn-enquire:hover span {padding-right: 25px;}
+.btn-enquire:hover span:after {opacity: 1;right: 0;}
+
+/****** Why Choose Us ********/
+.why-choose-us-sec{padding:25px 0 50px;}
+.choose-text{font-family:'Raleway',sans-serif;font-weight:700;font-size:19px;text-transform:uppercase;color:#242424;
+margin-top:15px;margin-bottom:25px;}
+
+/****** Trending Categories *********/
+.our-services{padding:50px 0 0;}
+.jungle-bg{background:url(../images/jungle-bg.png) no-repeat center center;background-size:cover;padding:130px 0;
+position:relative;}
+.resorts-bg{background:url(../images/resorts-bg.png) no-repeat center center;background-size:cover;padding:130px 0;
+position:relative;}
+.activities-bg{background:url(../images/activities-bg.png) no-repeat center center;background-size:cover;
+padding:130px 0;position:relative;}
+.team-outing-bg{background:url(../images/team-outing-bg.png) no-repeat center center;background-size:cover;
+padding:130px 0;position:relative;}
+.cat-content{padding:0px 40px;text-align:center;}
+.cat-content h3{font-family:'Raleway',sans-serif;font-weight:800;color:#fff;text-transform:uppercase;font-size:24px;}
+.services-hover{transition: all 1s ease;-moz-transition: all 1s ease;-ms-transition: all 1s ease;
+-webkit-transition: all 1s ease;-o-transition: all 1s ease;}
+.services-hover:hover{transform: scale(1.2);-moz-transform: scale(1.2);-webkit-transform: scale(1.2);-o-transform: scale(1.2);
+ -ms-transform: scale(1.2);}
+.cat-content a:hover{text-decoration:none;}
+
+/******** Take Advantage ***********/
+.take-adv-sec{width:100%;background:#fff;position:relative;}
+.take-adv-sec:after{content:"";position:absolute;top:0;bottom:0;right:0;width:50%;background:url(../images/take-adv-bg.png) no-repeat center center;background-size:cover;}
+.take-adv-title{color:#242424;font-weight:400;font-size:28px;position:relative;}
+.take-adv-title::after{content:"";position:absolute;left:0%;bottom:-20px;width:13%;height:4.8px;background:#304200;
+border-radius:5px;}
+.view-explore{border-radius:30px;padding:8px 20px;background:#fff;color:#304200;font-weight:700;font-size:18px;text-transform:uppercase;border:2px solid #304200;}
+.view-explore:hover{text-decoration:none;background:#fff;color:#304200;}
+.view-explore span {cursor:pointer;display:inline-block;position:relative;transition:0.5s;}
+.view-explore span:after {content: '\00bb';position:absolute;opacity: 0;top: -5px;right: 20px;transition: 0.5s;font-size:22px;color:#304200;}
+.view-explore:hover span {padding-right: 25px;}
+.view-explore:hover span:after {opacity: 1;right: 0;}
+
+/******** Contact Us Section ************/
+.contact-us{background:url(../images/contact-us-bg.png) no-repeat center center;background-size:cover;
+padding:50px 0;position:relative;color:#fff;}
+.contact-us-title{color:#fff;font-family:'Raleway',sans-serif;font-weight:700;font-size:26px;position:relative;
+text-transform:uppercase;}
+.contact-us-title::after{content:"";position:absolute;left:0%;bottom:-20px;width:12%;height:4.8px;background:#fff;
+border-radius:5px;}
+.contact-details{font-size:17px;}
+.contact-details a{color:#fff;}
+.contact-details a:hover, .contact-details a:focus{color:#c4c500;text-decoration:none;outline:none;}
+
+/******** Footer Bar Sec ************/
+.footer-bar{background:#414141;padding:10px;font-size:15px;color:#fff;}
+.footer-links li a{color:#fff;transition:all .3s;}
+.footer-links li a:hover{color:#9ed805;text-decoration:none;}
+.footer-links li + li:before{content:" | ";padding-right:5px;color:#fff;}
